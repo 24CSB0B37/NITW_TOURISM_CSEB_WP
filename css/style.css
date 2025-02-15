@@ -1,4 +1,4 @@
-/* style.css */
+/* General Styles */
 body, html {
     margin: 0;
     padding: 0;
@@ -7,11 +7,16 @@ body, html {
     background-color: #f5f5dc; /* Beige background */
 }
 
-header, footer {
-    background-color: #1e3a8a; /* Blue header and footer */
+/* Header and Navigation */
+header {
+    background-color: #1e3a8a; /* Blue header */
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -19,6 +24,8 @@ nav ul {
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 nav a {
@@ -26,12 +33,31 @@ nav a {
     color: #fff;
     font-weight: bold;
     transition: color 0.3s;
+    padding: 5px 10px;
 }
 
 nav a:hover {
     color: #cbd5e1; /* Lighter hover effect */
 }
 
+/* Main Content */
+main {
+    padding-top: 80px;
+    animation: fadeIn 1s ease;
+}
+
+/* Background Video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Gallery Images */
 .gallery img {
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -45,22 +71,33 @@ nav a:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
+/* Footer and Social Icons */
+footer {
+    background-color: #1e3a8a; /* Blue footer */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    z-index: 100;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
 footer .social-icons a {
     color: #fff;
     margin: 0 10px;
     font-size: 24px;
     transition: color 0.3s;
+    display: inline-block;
 }
 
 footer .social-icons a:hover {
     color: #38bdf8; /* Hover effect for social icons */
 }
 
-h1, p {
-    text-align: center;
-    color: #333;
-}
-
+/* Buttons */
 button {
     background: #1e3a8a;
     color: #fff;
@@ -75,58 +112,7 @@ button:hover {
     background: #3b82f6;
 }
 
-/* Animation */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-main {
-    animation: fadeIn 1s ease;
-}
-
-/* Lightbox Styles */
-.lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 10px;
-}
-
-.logo {
-    width: 60px;
-}
-
-.heritage-list, .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.heritage-list a, .gallery img {
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-}
-
-.heritage-list a:hover img, .gallery img:hover {
-    transform: scale(1.05);
-}
-
+/* Forms */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -158,4 +144,58 @@ form button {
 
 form button:hover {
     background: #3b82f6;
+}
+
+/* Lightbox Styles */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Miscellaneous */
+.logo {
+    width: 60px;
+}
+
+.heritage-list, .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.heritage-list a, .gallery img {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.heritage-list a:hover img, .gallery img:hover {
+    transform: scale(1.05);
+}
+
+h1, p {
+    text-align: center;
+    color: #333;
 }
