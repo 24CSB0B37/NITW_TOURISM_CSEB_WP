@@ -45,16 +45,22 @@ nav a:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
+footer .social-icons {
+    margin-top: 10px;
+}
+
 footer .social-icons a {
     color: #fff;
     margin: 0 10px;
     font-size: 24px;
     transition: color 0.3s;
+    display: inline-block;
 }
 
 footer .social-icons a:hover {
     color: #38bdf8; /* Hover effect for social icons */
 }
+
 
 h1, p {
     text-align: center;
