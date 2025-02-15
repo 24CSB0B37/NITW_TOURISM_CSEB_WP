@@ -1,10 +1,10 @@
 # Tourism Website for Japan
 
-The gallery webpage contains surprises...
+The gallery webpage has special opening of images.
 
 ---
 
-## 🌐 **Live Demo**
+Links
 To view the website, visit the following pages:
 - [Home Page](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/index.html)
 - [Heritage Sites](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage.html)
@@ -20,6 +20,6 @@ To view the website, visit the following pages:
 
 ## 🎨 **Features**
 - **Interactive Design**: Smooth scrolling and hover effects for enhanced user experience.
-- **Image Galleries**: Lightbox effect for viewing images in a larger format.
+- **Image Galleries**: Lightbox effect for viewing images in a larger format. This works in gallery webpage.
 - **Social Media Integration**: Footer with icons linking to Facebook, Twitter, Instagram, and LinkedIn.
 - **Responsive Layout**: Optimized for all devices.
