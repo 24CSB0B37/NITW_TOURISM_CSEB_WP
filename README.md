@@ -1,6 +1,6 @@
 # Tourism Website for Japan
 
-Explore the timeless beauty and rich cultural heritage of Japan with this interactive and elegant tourism website. This project showcases 5 famous heritage sites using captivating images, detailed descriptions, and a modern, responsive design.
+The gallery webpage contains surprises...
 
 ---
 
@@ -15,32 +15,6 @@ To view the website, visit the following pages:
 - [Nara Park](heritage-sites/site3.html)
 - [Mount Fuji](heritage-sites/site4.html)
 - [Osaka Castle](heritage-sites/site5.html)
-
----
-
-## 📁 **Directory Structure**
-```
-tourism-japan/
-│   index.html         --> Home Page
-│   heritage.html      --> Heritage Page
-│   booking.html       --> Hotel Booking Page
-│   gallery.html       --> Gallery Page
-│   css/
-│       style.css      --> Main Stylesheet
-│   js/
-│       main.js        --> Main JavaScript file
-│   images/
-│       logo.png
-│       1_1.jpg ... 5_6.jpg
-│   videos/
-│       background.mp4 --> Tourism background video
-│   heritage-sites/
-│       site1.html
-│       site2.html
-│       site3.html
-│       site4.html
-│       site5.html
-```
 
 ---
 
