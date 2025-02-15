@@ -7,14 +7,11 @@ body, html {
     background-color: #f5f5dc; /* Beige background */
 }
 
-footer {
+header, footer {
     background-color: #1e3a8a; /* Blue header and footer */
     color: #fff;
     padding: 10px 0;
     text-align: center;
-}
-
-header {
     position: relative;
     z-index: 100;
 }
