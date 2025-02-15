@@ -6,15 +6,15 @@ The gallery webpage contains surprises...
 
 ## 🌐 **Live Demo**
 To view the website, visit the following pages:
-- [Home Page](index.html)
-- [Heritage Sites](heritage.html)
-- [Hotel Booking](booking.html)
-- [Gallery](gallery.html)
-- [Kyoto Temple](heritage-sites/site1.html)
-- [Himeji Castle](heritage-sites/site2.html)
-- [Nara Park](heritage-sites/site3.html)
-- [Mount Fuji](heritage-sites/site4.html)
-- [Osaka Castle](heritage-sites/site5.html)
+- [Home Page](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/index.html)
+- [Heritage Sites](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage.html)
+- [Hotel Booking](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/booking.html)
+- [Gallery](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/gallery.html)
+- [Kyoto Temple](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage-sites/site1.html)
+- [Himeji Castle](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage-sites/site2.html)
+- [Nara Park](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage-sites/site3.html)
+- [Mount Fuji](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage-sites/site4.html)
+- [Osaka Castle](https://24csb0b37.github.io/NITW_TOURISM_CSEB_WP/heritage-sites/site5.html)
 
 ---
 
